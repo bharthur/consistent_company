@@ -289,7 +289,7 @@ char * TransformCompany(char * resultString)
 		if (s[strlen(s)-1] == '&')
 			s[strlen(s)-1] = '\0';
 	}
-	s = str_replace(s, " ", "");
+// 	s = str_replace(s, " ", "");
 	return s;
 }
 
